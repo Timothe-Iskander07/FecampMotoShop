@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fécamp Moto Shop — Achat, rénovation, vente et livraison de motos d'occasion à Fécamp (76).">
+  <title>Fécamp Moto Shop — Motos d'occasion à Fécamp</title>
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <meta property="og:image" content="FecampMotoShop.jpg">
+  <meta property="og:title" content="Fécamp Moto Shop — Motos d'occasion à Fécamp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#accueil" class="nav__logo">
+        <img src="FecampMotoShop.jpg" alt="" class="logo-img logo-img--nav" width="48" height="48">
+        <span class="nav__logo-text">Fécamp <strong>Moto Shop</strong></span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Ouvrir le menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#accueil" class="nav__link">Accueil</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#motos" class="nav__link">Motos</a></li>
+        <li><a href="#apropos" class="nav__link">À propos</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="accueil">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content container">
+      <p class="hero__tag">Fécamp — Seine-Maritime (76)</p>
+      <h1 class="hero__title">
+        Votre spécialiste<br>
+        <span class="hero__title-accent">motos d'occasion</span>
+      </h1>
+      <p class="hero__subtitle">
+        Achat, rénovation, vente et livraison de motos d'occasion.<br>
+        Qualité, passion et confiance au cœur de la Normandie.
+      </p>
+      <div class="hero__actions">
+        <a href="#motos" class="btn btn--primary">Voir nos motos</a>
+        <a href="#contact" class="btn btn--outline">Nous contacter</a>
+      </div>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-number">3+</span>
+          <span class="hero__stat-label">Motos rénovées</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-number">4</span>
+          <span class="hero__stat-label">Services clés</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-number">76</span>
+          <span class="hero__stat-label">Fécamp & alentours</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Défiler</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Ce que nous faisons</span>
+        <h2 class="section__title">Nos services</h2>
+        <p class="section__desc">De l'achat à la livraison, nous vous accompagnons à chaque étape de votre projet moto.</p>
+      </div>
+      <div class="services__grid">
+        <article class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"/>
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+              <circle cx="12" cy="12" r="10"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Achat</h3>
+          <p class="service-card__text">Nous rachetons votre moto au juste prix. Estimation rapide et transparente, paiement sécurisé.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Rénovation</h3>
+          <p class="service-card__text">Remise à neuf complète : mécanique, esthétique, sécurité. Chaque moto repart comme neuve.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+              <line x1="3" y1="6" x2="21" y2="6"/>
+              <path d="M16 10a4 4 0 01-8 0"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Vente</h3>
+          <p class="service-card__text">Large sélection de motos d'occasion contrôlées et garanties. Trouvez la moto qui vous correspond.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="1" y="3" width="15" height="13" rx="2"/>
+              <path d="M16 8h4l3 3v5h-3"/>
+              <circle cx="5.5" cy="18.5" r="2.5"/>
+              <circle cx="18.5" cy="18.5" r="2.5"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Livraison</h3>
+          <p class="service-card__text">Livraison à domicile dans toute la Normandie et au-delà. Votre moto, où que vous soyez.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Motos -->
+  <section class="motos section section--dark" id="motos">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Notre sélection</span>
+        <h2 class="section__title">Motos disponibles</h2>
+        <p class="section__desc">Découvrez notre catalogue de motos d'occasion rénovées avec soin.</p>
+      </div>
+      <div class="motos__grid">
+        <article class="moto-card">
+          <div class="moto-card__image">
+            <div class="moto-card__placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <circle cx="5" cy="18" r="3"/><circle cx="19" cy="18" r="3"/>
+                <path d="M5 18h2l2-6h6l2 6h2M9 12l2-4h2l2 4"/>
+              </svg>
+            </div>
+            <span class="moto-card__badge">Disponible</span>
+          </div>
+          <div class="moto-card__body">
+            <h3 class="moto-card__name">Ducati Monster 620 ie Dark</h3>
+            <ul class="moto-card__specs">
+              <li>2005</li>
+              <li>40 500 km</li>
+              <li>620 cm³</li>
+            </ul>
+            <div class="moto-card__footer">
+              <span class="moto-card__price">3 200 € (Négociable)</span>
+              <a href="#contact" class="moto-card__link">Demander info →</a>
+            </div>
+          </div>
+        </article>
+        <article class="moto-card">
+          <div class="moto-card__image">
+            <div class="moto-card__placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <circle cx="5" cy="18" r="3"/><circle cx="19" cy="18" r="3"/>
+                <path d="M5 18h2l2-6h6l2 6h2M9 12l2-4h2l2 4"/>
+              </svg>
+            </div>
+            <span class="moto-card__badge">Disponible</span>
+          </div>
+          <div class="moto-card__body">
+            <h3 class="moto-card__name">KTM 390 Duke</h3>
+            <ul class="moto-card__specs">
+              <li>2014</li>
+              <li>36 400 km</li>
+              <li>390 cm³</li>
+            </ul>
+            <div class="moto-card__footer">
+              <span class="moto-card__price">3 500 € (Négociable)</span>
+              <a href="#contact" class="moto-card__link">Demander info →</a>
+            </div>
+          </div>
+        </article>
+        <article class="moto-card">
+          <div class="moto-card__image">
+            <div class="moto-card__placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <circle cx="5" cy="18" r="3"/><circle cx="19" cy="18" r="3"/>
+                <path d="M5 18h2l2-6h6l2 6h2M9 12l2-4h2l2 4"/>
+              </svg>
+            </div>
+            <span class="moto-card__badge moto-card__badge--sold">Vendue</span>
+          </div>
+          <div class="moto-card__body">
+            <h3 class="moto-card__name">Kawasaki Z900</h3>
+            <ul class="moto-card__specs">
+              <li>2018</li>
+              <li>22 000 km</li>
+              <li>948 cm³</li>
+            </ul>
+            <div class="moto-card__footer">
+              <span class="moto-card__price">6 790 €</span>
+              <a href="#contact" class="moto-card__link">Demander info →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <p class="motos__note">Catalogue mis à jour régulièrement. Contactez-nous pour connaître les dernières arrivées.</p>
+    </div>
+  </section>
+
+  <!-- À propos -->
+  <section class="about section" id="apropos">
+    <div class="container about__grid">
+      <div class="about__content">
+        <span class="section__tag">Qui sommes-nous</span>
+        <h2 class="section__title">Passion moto,<br>expertise locale</h2>
+        <p class="about__text">
+          Basés à <strong>Fécamp</strong>, en Seine-Maritime, Fécamp Moto Shop est votre partenaire de confiance pour tout ce qui touche aux motos d'occasion. Notre équipe de passionnés sélectionne, rénove et prépare chaque moto avec le plus grand soin.
+        </p>
+        <p class="about__text">
+          Que vous souhaitiez vendre votre moto, en acheter une ou la faire livrer chez vous, nous mettons notre savoir-faire à votre service avec transparence et professionnalisme.
+        </p>
+        <ul class="about__list">
+          <li>Contrôle mécanique complet avant vente</li>
+          <li>Historique et documents en règle</li>
+          <li>Accompagnement personnalisé</li>
+          <li>Livraison dans toute la Normandie</li>
+        </ul>
+      </div>
+      <div class="about__visual">
+        <img src="FecampMotoShop.jpg" alt="Logo Fécamp Moto Shop — Normandie, France" class="logo-img logo-img--about" width="320" height="320">
+      </div>
+    </div>
+  </section>
+
+  <!-- Processus -->
+  <section class="process section section--dark">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Comment ça marche</span>
+        <h2 class="section__title">Simple et efficace</h2>
+      </div>
+      <div class="process__steps">
+        <div class="process__step">
+          <span class="process__number">01</span>
+          <h3>Contactez-nous</h3>
+          <p>Par téléphone, email ou via le formulaire. Décrivez votre projet ou la moto qui vous intéresse.</p>
+        </div>
+        <div class="process__step">
+          <span class="process__number">02</span>
+          <h3>Visite & essai</h3>
+          <p>Venez découvrir nos motos à Fécamp. Essai possible sur rendez-vous.</p>
+        </div>
+        <div class="process__step">
+          <span class="process__number">03</span>
+          <h3>Transaction</h3>
+          <p>Paiement sécurisé, paperasse simplifiée. Nous nous occupons de tout.</p>
+        </div>
+        <div class="process__step">
+          <span class="process__number">04</span>
+          <h3>Livraison</h3>
+          <p>Repartez avec votre moto ou faites-vous livrer directement chez vous.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="container contact__grid">
+      <div class="contact__info">
+        <span class="section__tag">Restons en contact</span>
+        <h2 class="section__title">Contactez-nous</h2>
+        <p class="contact__desc">Une question, un projet d'achat ou de vente ? N'hésitez pas à nous écrire ou à passer nous voir.</p>
+        <ul class="contact__details">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <strong>Adresse</strong>
+              <span>Fécamp, 76400 — Seine-Maritime</span>
+            </div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <div>
+              <strong>Téléphone</strong>
+              <a href="tel:+33673183795" class="contact__link">06 73 18 37 95</a>
+            </div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:fecampmotoshop@gmail.com" class="contact__link">fecampmotoshop@gmail.com</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="contact__actions">
+        <h3 class="contact__actions-title">Nous écrire</h3>
+        <p class="contact__actions-desc">Cliquez pour ouvrir votre messagerie, ou copiez l'adresse email en un clic.</p>
+        <div class="contact__email-box">
+          <span class="contact__email" id="contactEmail">fecampmotoshop@gmail.com</span>
+          <button type="button" class="contact__copy-btn" id="copyEmailBtn" aria-label="Copier l'adresse email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18">
+              <rect x="9" y="9" width="13" height="13" rx="2"/>
+              <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
+            </svg>
+          </button>
+        </div>
+        <p class="contact__copy-feedback" id="copyFeedback" role="status">Adresse copiée !</p>
+        <div class="contact__buttons">
+          <a href="mailto:fecampmotoshop@gmail.com?subject=Contact%20-%20F%C3%A9camp%20Moto%20Shop" class="btn btn--primary btn--full">Envoyer un email</a>
+          <a href="tel:+33673183795" class="btn btn--outline btn--full">Appeler le 06 73 18 37 95</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#accueil" class="footer__logo">
+          <img src="FecampMotoShop.jpg" alt="" class="logo-img logo-img--footer" width="48" height="48">
+          <span class="footer__logo-text">Fécamp <strong>Moto Shop</strong></span>
+        </a>
+        <p>Achat, rénovation, vente et livraison de motos d'occasion à Fécamp (76).</p>
+      </div>
+      <div class="footer__links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#motos">Motos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Achat</a></li>
+          <li><a href="#services">Rénovation</a></li>
+          <li><a href="#services">Vente</a></li>
+          <li><a href="#services">Livraison</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>&copy; 2026 Fécamp Moto Shop — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
