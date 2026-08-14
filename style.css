@@ -1028,9 +1028,10 @@ img {
     flex-direction: column;
     gap: 24px;
   }
+}
 
 /* =============================================
-LEGAL PAGE
+  LEGAL PAGE
 ============================================= */
 .footer__legal-link,
 .legal-page a,
